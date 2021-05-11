@@ -41,9 +41,9 @@ browser.get('https://online.sbis.ru/page/company')
 time.sleep(3)
 """Логинимся"""
 login = browser.find_element_by_xpath('//*[@id="auth-loginForm_login"]/div/div/input')
-login.send_keys('dor.freza@mail.ru')
+login.send_keys('********')
 password = browser.find_element_by_xpath('//*[@id="auth-loginForm_password"]/div/div/input')
-password.send_keys('Freza2020')
+password.send_keys('********')
 begin = browser.find_element_by_xpath(
     '//*[@id="wasaby-content"]/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div/div/div/div/div[1]/div[1]/div[1]/div[2]/button')
 begin.click()
